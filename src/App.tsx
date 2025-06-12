@@ -10,9 +10,6 @@ import { PostProcessing } from './post-processing';
 // Pre-loading the model to avoid blocking the main thread later
 useGLTF.preload('/jousting_helmet-transformed.glb');
 
-/**
- * Main application component
- */
 export default function App(): JSX.Element {
   const { bgColor } = useControls({
     'Scene Settings': folder({
@@ -119,9 +116,6 @@ interface HelmetProps {
   [key: string]: any;
 }
 
-/**
- * 3D Helmet model component 
- */
 function Helmet(props: HelmetProps): JSX.Element {
   const { nodes, materials } = useGLTF('/jousting_helmet-transformed.glb') as any;
   return (
