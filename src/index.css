@@ -41,14 +41,14 @@ body {
 }
 
 .demo-name {
-  font-family: "OptimusPrincepsSemiBold", serif;
+  font-family: 'OptimusPrincepsSemiBold', serif;
   font-size: 46px;
   color: white;
   pointer-events: none;
 }
 
 .demo-author {
-  font-family: "OptimusPrinceps", serif;
+  font-family: 'OptimusPrinceps', serif;
   font-size: 16px;
   color: white;
   text-decoration: none;
